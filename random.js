@@ -14,7 +14,7 @@ btn.addEventListener('click', () => {
     btn.style.color = newColor;
 
     const rgbSum = r + g + b;
-    if(rgbSum < 100){
+    if(rgbSum < 150){
         document.body.style.color = 'white';
     }else {
         document.body.style.color = 'black'
